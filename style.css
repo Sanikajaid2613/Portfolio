@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* Sections */
+section {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Home section */
+.home {
+    background: lightblue;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkblue;
+    transform: scale(1.1);
+}
+/* Projects */
+.project {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    background: lightgray;
+    transform: scale(1.05);
+}
+/* Dark Mode */
+.dark {
+    background: black;
+    color: white;
+}
